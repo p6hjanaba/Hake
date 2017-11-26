@@ -25,3 +25,5 @@ Regarding our organizational side, we decided to split our team into two groups:
 The biggest and only challenge we faced on the 2nd day, after our Android app was already in the making, was that it was quite complex and some forums even said it is impossible to replace the caller screen by another app. Over the course of Hackjunction we learned that our initial simple idea was way harder to execute and would take more time than we had.
 
 Overall we think we made a great job bringing our ideas to life. We have a great webpage that is using the Spotify Web API to show what we have achieved. Furthermore, there is also a video on YouTube to illustrate our idea and we could not have been more happy to have taken on this challenge. We will still continue to improve our app, because we think it is a great idea that has not yet been realized by others. PS. Most importantly, we realized how important it is to communicate and how to work well as a team. And we think we did great!
+
+Check out our demo video: https://www.youtube.com/watch?v=AXm5aFkO04w

@@ -83,19 +83,19 @@ function play(number) {
 		let tid = uris.split(":");
 		$.post('/play?uris=' + uris + '&token=' + _token);
 		analyze(tid[2]);
-		$(".oun-incoming").css({ "display": "block;" });
+		$(".oun-incoming").css({ "display": "block" });
 	}else if (number == 3){
 		let uris = 'spotify:track:5h5tBFnbcVioFXiOixTn6E';
 		let tid = uris.split(":");
 		$.post('/play?uris=' + uris + '&token=' + _token);
 		analyze(tid[2]);
-		$(".oun-incoming").css({ "display": "block;" });
+		$(".oun-incoming").css({ "display": "block" });
 	}else if (number == 4){
 		let uris = 'spotify:track:1vfx68bEuJpOLgHlnyYRht';
 		let tid = uris.split(":");
 		$.post('/play?uris=' + uris + '&token=' + _token);
 		analyze(tid[2]);
-		$(".oun-incoming").css({ "display": "block;" });
+		$(".oun-incoming").css({ "display": "block" });
 	}
 
 }

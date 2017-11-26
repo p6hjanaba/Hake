@@ -1,5 +1,8 @@
 # Hake
 
+### Authors
+Kristian Talviste, Ea Rist, Annika Antsman, Henrik Romanenkov
+
 ## Idea
 Everything starts from a simple app that generates values based on your music. These values are changing while music plays, thus generating a cool and personalized picture for your incoming calls. Depending on your ringtone, the color mood is set.
 

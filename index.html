@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hake app</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css"></script>
+    <script src="https://sdk.scdn.co/spotify-player.js"></script>
+    <script src="client.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="top-bar">
+		<div class="head-title">HAKE</div>
+		<div class="youtube" onclick="window.location.href='https://www.youtube.com/watch?v=AXm5aFkO04w'"></div>
+	</div>
+
+	<div class="main">
+		<div class="phone-container">
+			<div class="inner">
+				<image class="lion-head"></image>
+				<image class="oun-incoming"></image>
+				
+			</div>
+			
+			<div class="description">
+				Personalize your incoming call with cool songs and visualizers. <br>
+				<br>
+				Everything starts from a simple app that generates values based on your music. These values are changing while music plays thus generating a cool and personalized picture for your incoming calls. Depending on your ringtone, the color mood is set. 
+			</div>
+			<div class="buttons">
+			    <button onclick="play(1);" class="btn-play">
+			    	Dj Snake, Justin Bieber - Let Me Love You
+			    </button>
+			    <button onclick="play(2);" class="btn-play">
+			    	ESTRADARADA - Вите Надо Выйти
+			    </button>
+			    <button onclick="play(3);" class="btn-play">
+			    	Kendrick Lamar - Bitch, Don't Kill My Vibe
+			    </button>
+			    <button onclick="play(4);" class="btn-play">
+			    	Sirusho, Sebu - Vuy Aman
+			    </button>
+			     <button onclick="pause();" class="btn-pause">
+			    	Pause
+			    </button>
+			</div>
+			<canvas class="animation"></canvas>
+		</div>
+	</div>
+	<div class="bot-bar">
+		<div class="credits">Henrik, Annika, Kristian, Ea &copy;</div>
+		<div class="credits">Junction 2017</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "junction.hake",
+  "version": "0.0.1",
+  "description": "simple visualizer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "spotify-web-api-node": "^2.3.6"
+  },
+	"engines": {
+		"node": "~0.10.0 || ~4.2.0"
+	},
+  "author": "Kristian Talviste",
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express",
+    "spotify"
+  ]
+}
+

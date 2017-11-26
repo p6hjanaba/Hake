@@ -1,0 +1,222 @@
+
+/* ---- HEADER ---- */
+html{
+	width: 100%;
+	height: 100%;
+}
+
+.head-title{
+	color: white;
+	font-family: "Neou-Thin","Segoe UI";
+	font-weight: lighter;
+	padding-top: 10px;
+	font-size: 25pt;
+	letter-spacing: 10px;
+}
+
+.top-bar {
+    display: block;
+    background-color: rgb(20, 20, 20);
+    background: -webkit-linear-gradient(black, rgb(20, 20, 20)); /* Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, rgb(20, 20, 20)); /* Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, rgb(20, 20, 20)); /* Firefox 3.6 to 15 */
+    background: linear-gradient(black, rgb(20, 20, 20)); /* Standard syntax */
+    height: 50px;
+    width: 101%;
+    margin-top: 0;
+    padding-bottom: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 0px 3px rgba(0,0,0,0.3);
+}
+
+/* ---- HEADER ---- */
+/* ----  MAIN  ---- */
+
+body{
+	background-image: url("back.jpg");
+	background-color: black;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.phone-container{
+	background-image: url('iphone6plus.png');
+	width: 400px;
+	height: 600px;
+	display: inline-block;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: relative;
+	margin-left: 25%;
+}
+
+.inner{
+	position: absolute;
+	background-image: url('lion-back.jpg');
+	background-size: cover;
+	background-position-x: center; 
+	right: 119px;
+    top: 81px;
+    left: 33px;
+    bottom: 82px;
+}
+
+.lion-head{
+	position: absolute;
+	background-image: url('lion-head.png');
+	width: 249px;
+	height: 437px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size: 75% auto;
+	background-position: center;
+	transition: background-size 0.4s;
+}
+
+.oun-incoming{
+	position: relative;
+	background-image: url('oun_incoming2.png');
+	width: 249px;
+	height: 437px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size: 105% 100%;
+	background-position: center;
+	opacity: 0.8;
+	transition: opacity 1.0s;
+	display: none;
+}
+
+.animation{
+	display: block;
+	background-color: none;
+	width: 50px;
+	height: 50px;
+}
+
+.description{
+	color: white;
+	position: absolute;
+	font-family: "Neou-Thin","Segoe UI";
+	font-size: 12pt;
+	text-align: justify;
+	width: 93%;
+	background-color: rgba(30, 30, 30, 0.7);
+	right: 15%;
+    top: 10%;
+    left: 85%;
+    padding: 20px;
+}
+
+.buttons{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	left: 85%;
+    top: 48%;
+}
+
+.btn-play{
+	font-size: 13pt;
+	position: relative;
+	color: white;
+	background-color: rgb(65,105,225);
+	width: 100%;
+	padding: 10px;
+	border:0px;
+	border-radius: 30px;
+	margin: 5px;
+	transition-duration: 0.4s;
+}
+
+.btn-pause{
+	font-size: 13pt;
+	position: relative;
+	color: white;
+	background-color: rgb(30,30,30);
+	width:100%;
+	padding: 10px;
+	border: 0px;
+	border-radius: 30px;
+	margin: 5px;
+	transition-duration: 0.4s;
+}
+
+.btn-play:hover{background-color: rgb(93,128,234);}
+.btn-pause:hover{background-color: rgb(70,70,70);}
+button:focus {outline:0;}
+
+.youtube{ 
+	background: rgb(65,105,225);
+	border-radius: 50% / 10%;
+	color: #FFFFFF;
+	font-size: 2em;
+	height: 1.2em;
+	margin: -41px auto;
+	padding: 0;
+	position: relative;
+	text-align: center;
+	text-indent: 0.1em;
+	transition: all 150ms ease-out;
+	width: 1.6em;
+	margin-right: 4%;
+}
+
+.youtube:hover {
+  background: rgb(93,128,234);
+}
+
+.youtube::before { 
+  background: inherit;
+  border-radius: 5% / 50%;
+  bottom: 9%;
+  content: "";
+  left: -5%;
+  position: absolute;
+  right: -5%;
+  top: 9%;
+}
+
+.youtube::after {
+  border-style: solid;
+  border-width: 1em 0 1em 1.732em;
+  border-color: transparent transparent transparent rgba(255,255,255, 0.75);
+  content: ' ';
+  font-size: 0.3em;
+  height: 0;
+  margin: -1em 0 0 -0.75em;
+  top: 50%;
+  position: absolute;
+  width: 0;
+}
+
+/* ----  MAIN  ---- */
+/* ---- FOOTER ---- */
+
+.credits{
+	color:white;
+	font-family: "Neou-Thin","Segoe UI";
+	font-weight: lighter;
+	font-size: 13pt;
+	padding-top: 5px;
+	text-align: center;
+}
+
+.bot-bar{
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	padding-top: 5px;
+	bottom: 0px;
+	left: 0px;
+    background-color: rgb(20, 20, 20);
+    background-color: rgb(20, 20, 20);
+    background: -webkit-linear-gradient(rgb(20, 20, 20), black); /* Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(20, 20, 20), black); /* Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(20, 20, 20), black); /* Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(20, 20, 20), black); /* Standard syntax */
+    box-shadow: 0px 0px 0px 3px rgba(0,0,0,0.3);
+}

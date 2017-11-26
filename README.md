@@ -3,7 +3,7 @@
 #### Authors
 Kristian Talviste, Ea Rist, Annika Antsman, Henrik Romanenkov
 
-#### As Our server is having some problems, the project demo can only be checked out currently on a local machine.
+#### As Our server is having some problems, the project demo can only be checked out currently on a local machine and Spotify is limiting developing only to Premium users.
 
 ## Idea
 Everything starts from a simple app that generates values based on your music. These values are changing while music plays, thus generating a cool and personalized picture for your incoming calls. Depending on your ringtone, the color mood is set.
